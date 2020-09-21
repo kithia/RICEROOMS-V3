@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper,
     backgroundSize: 'length',
     backgroundRepeat: 'repeat-x',
-    backgroundPosition: '0% 82.5%',
+    backgroundPosition: '0% 77.5%',
     top: 20,
   },
 }));

@@ -59,7 +59,7 @@ function IndexMain() {
         <React.Fragment>
             <Grid container style={{ marginBottom: '5rem' }}>
                 <Grid item xs={0} sm={0} md={6}>
-                    <div style={{ maxWidth: '450px', marginTop: '2.5vw' }}>
+                    <div>
                         <Typography variant="h3" component="h3" style={{ paddingBottom: '1.5rem', fontWeight: 'bold' }}>
                             Find and Secure the Perfect Place in Minutes!</Typography>
                         <Typography variant="body1" component="p" style={{ paddingBottom: '1.5rem', fontSize: 22 }}>

@@ -52,7 +52,7 @@ function IndexAlert() {
                         </IconButton>
                     }
                 >
-                    First time moving out? Check out our move-out guide here, <Link>click here</Link>
+                    First time moving out? Check out our move-out guide here, <Link color='primary'>click here</Link>
                 </Alert>
             </Collapse>
         </div>
