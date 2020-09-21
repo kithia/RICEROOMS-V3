@@ -1,0 +1,1 @@
+INSERT INTO FormSub(fName,lName,mobile,email,university,course,mCampus,wBudgetPP,noTenants,noWeeks,comments) VALUES(?,?,?,?,?,?,?,?,?,?,?);
