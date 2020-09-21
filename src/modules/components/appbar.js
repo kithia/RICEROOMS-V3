@@ -53,7 +53,7 @@ const useStyles = makeStyles((theme) => ({
     appBar: {
         paddingTop: 22,
         paddingBottom: 22,
-        borderBottom: `1px solid ${theme.palette.divider}`,
+        /* borderBottom: `1px solid ${theme.palette.divider}`, */
     },
     sectionDesktop: {
         alignItems: 'center',
@@ -147,7 +147,7 @@ function SearchAppBar()  {
     return (
         <React.Fragment>
             <div className={classes.root}>
-                <AppBar position="sticky" color="inherit" elevation={0} className={classes.appBar}>
+                <AppBar position="sticky" color="inherit" elevation={2} className={classes.appBar}>
                     <Toolbar>
                         <Link href="/" style={{ margin: theme.spacing(1 ) }}>
                             <img src={logo_horizontal} height="52" style={{ verticalAlign: 'middle' }} alt='ricerooms' />
