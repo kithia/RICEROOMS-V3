@@ -37,7 +37,6 @@ const useStyles = makeStyles((theme) => ({
         fontWeight: 'bold',
     },
     button: {
-        /* borderRadius: 0, */
         fontSize: 20,
         fontWeight: 'bold',
         textTransform: 'none',
@@ -68,7 +67,7 @@ function IndexMain() {
                     </div>
                 </Grid>
                 <Grid item xs={12} sm={12} md={6}>
-                    <Card className={classes.root}>
+                    <Card elevation={2}>
                         <CardContent>
                             <Grid container spacing={3}>
                                 <Grid item xs={12}>
@@ -155,7 +154,7 @@ function IndexMain() {
                 </Grid>
             </Grid>
             <div align='center'>
-                <Card className={classes.root}>
+                <Card elevation={2}>
                     <CardContent>
                         <Typography variant="body1" component="p" style={{ fontSize: 22 }}>Private Rented Student Accommodation
                             | Purpose Built Student Accommodation</Typography>
