@@ -39,6 +39,7 @@ function IndexAlert() {
             <Collapse in={open}>
                 <Alert
                     icon={false}
+                    severity="info"
                     action={
                         <IconButton
                             aria-label="close"
@@ -52,7 +53,7 @@ function IndexAlert() {
                         </IconButton>
                     }
                 >
-                    First time moving out? Check out our move-out guide here, <Link color='primary'>click here</Link>
+                    First time moving out? Check out our move-out guide here, <Link href="#" target="_blank" color="textSecondary">click here</Link>
                 </Alert>
             </Collapse>
         </div>
