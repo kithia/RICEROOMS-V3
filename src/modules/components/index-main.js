@@ -67,7 +67,7 @@ function IndexMain() {
                     </div>
                 </Grid>
                 <Grid item xs={12} sm={12} md={6}>
-                    <Card elevation={2} style={{ padding: '1.125rem' }}>
+                    <Card style={{ padding: '1.125rem' }}>
                         <CardContent>
                             <Grid container spacing={3}>
                                 <Grid item xs={12}>
@@ -154,7 +154,7 @@ function IndexMain() {
                 </Grid>
             </Grid>
             <div align='center'>
-                <Card elevation={2}>
+                <Card>
                     <CardContent>
                         <Typography variant="body1" component="p" style={{ fontSize: 22 }}>Private Rented Student Accommodation
                             | Purpose Built Student Accommodation</Typography>

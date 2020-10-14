@@ -4,6 +4,9 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 import './index.css';
 import App from './app';
+import { MainForm } from "./main-form";
+import { FormSubmitted } from "./form-submitted";
+import { ProtectedRoute } from "./protected-route";
 import FourZeroThree from "./403";
 import FourZeroFour from "./404";
 import AppBar from "./modules/components/appbar";
@@ -34,6 +37,8 @@ ReactDOM.render(
                     {/* Pages of the website */}
                     <Switch>
                         <Route exact path="/" component={ App }/>
+                        <Route exact path="/find-a-place" component={ MainForm }/>
+                        <ProtectedRoute exact path="/thank-you" component={ FormSubmitted }/>
                         <Route path="/forbidden" component={ FourZeroThree }/>
                         <Route path="" component={ FourZeroFour }/>
                     </Switch>

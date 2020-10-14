@@ -5,7 +5,7 @@ import { Typography } from "@material-ui/core";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 import CardMedia from "@material-ui/core/CardMedia";
-import icon from "./images/ricerooms/logoicon.png";
+import icon from "./images/ricerooms/icon.svg";
 
 const theme = createMuiTheme({
     palette: {
