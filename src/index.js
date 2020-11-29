@@ -6,7 +6,6 @@ import './index.css';
 import App from './app';
 import { MainForm } from "./main-form";
 import { FormSubmitted } from "./form-submitted";
-import { ProtectedRoute } from "./protected-route";
 import FourZeroThree from "./403";
 import FourZeroFour from "./404";
 import AppBar from "./modules/components/appbar";
