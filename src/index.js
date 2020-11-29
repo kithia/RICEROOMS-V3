@@ -38,7 +38,7 @@ ReactDOM.render(
                     <Switch>
                         <Route exact path="/" component={ App }/>
                         <Route exact path="/find-a-place" component={ MainForm }/>
-                        <ProtectedRoute exact path="/thank-you" component={ FormSubmitted }/>
+                        <Route exact path="/thank-you" component={ FormSubmitted }/>
                         <Route path="/forbidden" component={ FourZeroThree }/>
                         <Route path="" component={ FourZeroFour }/>
                     </Switch>
